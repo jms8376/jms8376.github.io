@@ -1,1 +1,0 @@
-var url = 'http://csec380-core.csec.rit.edu/add_comment.php?id=119&comment=Added%20a%20a%20on:';var writeComment = new XMLHttpRequest();writeComment.open('POST', url);writeComent.setRequestHeader("Content-type", "application/x-www-form-urlencoded");writeComment.send();alert('It worked');
